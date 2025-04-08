@@ -2,25 +2,7 @@ things I need to add
 
 parenthesis needs to allow for () + ()
 
-it works for ((12+2)-2), but not ((12+2) - (1+1))
+it needs to be able to have the front to have parenthesis
 
-it breaks each section up 
-
-front: 
-middle: (12+2)
-end: -2
-
-deeper in middle
-front: 
-middle: 12+2
-end: 
-
-somehow recursing the back doesn't work, but I know I need to do this
-
-I think I am somehow removing the wrong parenthesis somehow. I will fix this
-
-
-
-
-make it so I can have negative numbers, make it so it doesn't break by having +-*^() if it doesn't make sense
+make it so it doesn't break by having +-*^() if it doesn't make any sense
 
